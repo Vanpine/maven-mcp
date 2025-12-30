@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mcp-client
+  ai:
+    dashscope:
+      api-key: sk-4246e826d02342b4bb713f68a1ff7b6f
+    memory:
+      redis:
+        host: 192.168.174.128
+        port: 6379
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG
+    com.vanpine.mcpclient: DEBUG
+
+

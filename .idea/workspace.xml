@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mcp-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/McpClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/Pojo/ChatPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/AiDoctorProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/MemoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/test/java/com/vanpine/mcpserver/DoctorAiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/vanpine/mcpserver/config/McpServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/vanpine/mcpserver/service/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/ChatClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/McpController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mcp-maven/maven-father/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
@@ -26,6 +15,11 @@
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/AiDoctorProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-ai-alibaba-chat-example/dashscope-chat/src/main/java/com/alibaba/cloud/ai/example/chat/dashscope/controller/DashScopeChatClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-ai-alibaba-chat-example/dashscope-chat/src/main/java/com/alibaba/cloud/ai/example/chat/dashscope/controller/DashScopeChatClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +27,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="37Y2AnOBWMDURPS068fNoUfQOU0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +62,7 @@
     "Spring Boot.McpClientApplication (1).executor": "Run",
     "Spring Boot.McpClientApplication.executor": "Run",
     "Spring Boot.McpSererApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_directory_selection": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai",
     "last_opened_file_path": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -75,6 +76,11 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.McpSererApplication">
+  <component name="RunManager" selected="Spring Boot.McpClientApplication (1)">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="maven-mcp" />
       <method v="2">
@@ -107,8 +113,8 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mcp-client" />
+    <configuration name="McpClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-ai-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vanpine.mcpclient.McpClientApplication" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.McpClientApplication (1)" />
         <item itemvalue="Spring Boot.McpSererApplication" />
-        <item itemvalue="Spring Boot.McpClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767065543712</updated>
       <workItem from="1767065544711" duration="1719000" />
+      <workItem from="1767072993753" duration="5472000" />
     </task>
     <servers />
   </component>

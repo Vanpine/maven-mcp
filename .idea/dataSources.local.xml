@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-251.23774.435">
+    <data-source name="0@192.168.174.128" uuid="d9ddaed8-2eab-4d63-bb2c-ca9d5e9ce225">
+      <database-info product="Redis Standalone" version="8.2.3" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="8.2.3" exact-driver-version="1.5">
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

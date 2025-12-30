@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/ChatClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/McpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mcp-maven/maven-father/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
@@ -15,10 +13,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/AiDoctorProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-ai-alibaba-chat-example/dashscope-chat/src/main/java/com/alibaba/cloud/ai/example/chat/dashscope/controller/DashScopeChatClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-ai-alibaba-chat-example/dashscope-chat/src/main/java/com/alibaba/cloud/ai/example/chat/dashscope/controller/DashScopeChatClientController.java" afterDir="false" />
     </list>
@@ -45,6 +39,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="37Y2AnOBWMDURPS068fNoUfQOU0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.McpClientApplication (1)" />
         <item itemvalue="Spring Boot.McpSererApplication" />
+        <item itemvalue="Spring Boot.McpClientApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767065543712</updated>
       <workItem from="1767065544711" duration="1719000" />
-      <workItem from="1767072993753" duration="5472000" />
+      <workItem from="1767072993753" duration="6982000" />
     </task>
     <servers />
   </component>

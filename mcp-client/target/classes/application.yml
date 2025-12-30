@@ -22,10 +22,12 @@ spring:
         request-timeout: 60s
         toolcallback:
           enabled: true
-        sse:
-          connections:
-            mcp-server1:
-              url: http://localhost:8014
+        stdio:
+          servers-configuration: classpath:/mcp-server.json5
+        # sse:
+        #   connections:
+        #     mcp-server1:
+        #       url: http://localhost:8014
 logging:
   level:
     org.springframework.ai.chat.client.advisor: DEBUG

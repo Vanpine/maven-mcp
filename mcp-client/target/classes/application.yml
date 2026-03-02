@@ -14,7 +14,7 @@ spring:
       api-key: sk-4246e826d02342b4bb713f68a1ff7b6f
     memory:
       redis:
-        host: 192.168.174.128
+        host: 127.0.0.1
         port: 6379
     mcp:
       client:

@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 
 /*
-*  redis记忆存储Bean配置
-*
-* */
+ *  redis记忆存储Bean配置
+ *
+ * */
 @Configuration
 public class MemoryConfig {
     // 从配置文件中获取redis 主机ip配置
@@ -23,9 +23,6 @@ public class MemoryConfig {
 
     @Bean
     public RedisChatMemoryRepository redisChatMemoryRepository() {
-        return RedisChatMemoryRepository.builder()
-                .host(redisHost)
-                .port(redisPort)
-                .build();
+        return RedisChatMemoryRepository.builder().host(redisHost).port(redisPort).build();
     }
 }

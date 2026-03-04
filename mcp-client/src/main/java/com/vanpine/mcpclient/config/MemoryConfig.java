@@ -13,11 +13,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MemoryConfig {
     // 从配置文件中获取redis 主机ip配置
-    @Value("${spring.ai.memory.redis.host}")
+    @Value("${spring.data.redis.host}")
     private String redisHost;
 
     // 从配置文件中获取redis 隐射端口配置
-    @Value("${spring.ai.memory.redis.port}")
+    @Value("${spring.data.redis.port}")
     private int redisPort;
 
 

@@ -8,14 +8,22 @@ server:
 spring:
   application:
     name: mcp-client
+  data:
+    redis:
+      port: 6379
+      host: 192.168.10.21
 
   ai:
     dashscope:
       api-key: sk-4246e826d02342b4bb713f68a1ff7b6f
-    memory:
+      embedding:
+        options:
+          model: text-embedding-v3
+    vectorstore:
       redis:
-        host: 127.0.0.1
-        port: 6379
+        initialize-schema: true
+        index-name: custom-index
+        prefix: custom-prefix
     mcp:
       client:
         type: async

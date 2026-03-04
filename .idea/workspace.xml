@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9ddaed8-2eab-4d63-bb2c-ca9d5e9ce225.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/EmbedVectorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/MemoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/MemoryConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/Pojo/ChatPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/Pojo/ChatPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/MemoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/MemoryConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/AiDoctorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/AiDoctorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/McpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/McpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/test-classes/com/vanpine/mcpserver/DoctorAiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/test-classes/com/vanpine/mcpserver/DoctorAiApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/config/McpServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/config/McpServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/service/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/service/WeatherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +98,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.McpClientApplication (1)">
+  <component name="RunManager" selected="Spring Boot.McpClientApplication">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="maven-mcp" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="McpClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="alibaba-ai-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vanpine.mcpclient.McpClientApplication" />
       <extension name="coverage">
@@ -143,7 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.McpClientApplication (1)" />
+        <item itemvalue="Spring Boot.McpClientApplication" />
         <item itemvalue="Spring Boot.McpSererApplication" />
       </list>
     </recent_temporary>
@@ -169,7 +158,9 @@
       <workItem from="1767708112386" duration="250000" />
       <workItem from="1767783080384" duration="25000" />
       <workItem from="1768523532431" duration="10000" />
-      <workItem from="1772428036521" duration="1641000" />
+      <workItem from="1772428036521" duration="2152000" />
+      <workItem from="1772516964012" duration="52000" />
+      <workItem from="1772596956675" duration="3599000" />
     </task>
     <servers />
   </component>

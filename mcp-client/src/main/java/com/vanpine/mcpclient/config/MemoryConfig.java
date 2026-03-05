@@ -20,9 +20,12 @@ public class MemoryConfig {
     @Value("${spring.data.redis.port}")
     private int redisPort;
 
+    @Value("${spring.data.redis.password}")
+    private String redisPassword;
+
 
     @Bean
     public RedisChatMemoryRepository redisChatMemoryRepository() {
-        return RedisChatMemoryRepository.builder().host(redisHost).port(redisPort).build();
+        return RedisChatMemoryRepository.builder().host(redisHost).port(redisPort).password(redisPassword).build();
     }
 }

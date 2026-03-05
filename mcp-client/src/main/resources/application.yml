@@ -10,8 +10,9 @@ spring:
     name: mcp-client
   data:
     redis:
-      port: 6379
-      host: 192.168.10.21
+      port: 6380
+      host: 120.26.30.114
+      password: wangbing201708
 
   ai:
     dashscope:

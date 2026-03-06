@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <title>AI 对话机器人</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8"/>
+    <title>Vanpine智能AI助手</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <style>
         :root {
             color-scheme: light dark;
@@ -42,10 +42,9 @@
             background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.98));
             border-radius: 24px;
             border: 1px solid rgba(148, 163, 184, 0.35);
-            box-shadow:
-                    0 24px 80px rgba(15, 23, 42, 0.9),
-                    0 0 0 1px rgba(15, 23, 42, 0.8),
-                    0 0 60px rgba(59, 130, 246, 0.25);
+            box-shadow: 0 24px 80px rgba(15, 23, 42, 0.9),
+            0 0 0 1px rgba(15, 23, 42, 0.8),
+            0 0 60px rgba(59, 130, 246, 0.25);
             display: flex;
             flex-direction: column;
             overflow: hidden;
@@ -72,9 +71,8 @@
             height: 32px;
             border-radius: 999px;
             background: radial-gradient(circle at 30% 0, #60a5fa, #2563eb 40%, #0f172a 100%);
-            box-shadow:
-                    0 0 18px rgba(59, 130, 246, 0.7),
-                    0 0 32px rgba(37, 99, 235, 0.8);
+            box-shadow: 0 0 18px rgba(59, 130, 246, 0.7),
+            0 0 32px rgba(37, 99, 235, 0.8);
             position: relative;
             overflow: hidden;
         }
@@ -138,10 +136,9 @@
             flex: 1;
             border-radius: 16px;
             border: 1px solid rgba(51, 65, 85, 0.9);
-            background:
-                    radial-gradient(circle at top left, rgba(30, 64, 175, 0.32), transparent 65%),
-                    radial-gradient(circle at bottom right, rgba(6, 95, 70, 0.28), transparent 70%),
-                    rgba(15, 23, 42, 0.96);
+            background: radial-gradient(circle at top left, rgba(30, 64, 175, 0.32), transparent 65%),
+            radial-gradient(circle at bottom right, rgba(6, 95, 70, 0.28), transparent 70%),
+            rgba(15, 23, 42, 0.96);
             padding: 12px 14px;
             overflow-y: auto;
             scroll-behavior: smooth;
@@ -222,17 +219,15 @@
         .bubble.user {
             background: radial-gradient(circle at top, rgba(59, 130, 246, 0.9), rgba(30, 64, 175, 0.98));
             border-color: rgba(191, 219, 254, 0.5);
-            box-shadow:
-                    0 12px 32px rgba(37, 99, 235, 0.7),
-                    0 0 0 1px rgba(37, 99, 235, 0.4);
+            box-shadow: 0 12px 32px rgba(37, 99, 235, 0.7),
+            0 0 0 1px rgba(37, 99, 235, 0.4);
         }
 
         .bubble.assistant {
             background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.92));
             border-color: rgba(148, 163, 184, 0.6);
-            box-shadow:
-                    0 12px 30px rgba(15, 23, 42, 0.9),
-                    0 0 0 1px rgba(15, 23, 42, 0.9);
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.9),
+            0 0 0 1px rgba(15, 23, 42, 0.9);
         }
 
         .bubble.meta {
@@ -254,20 +249,30 @@
             animation: blink 1s infinite ease-in-out;
         }
 
-        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
-        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
 
         @keyframes blink {
-            0%, 80%, 100% { opacity: 0.2; transform: translateY(0); }
-            40% { opacity: 1; transform: translateY(-1px); }
+            0%, 80%, 100% {
+                opacity: 0.2;
+                transform: translateY(0);
+            }
+            40% {
+                opacity: 1;
+                transform: translateY(-1px);
+            }
         }
 
         .input-panel {
             border-radius: 18px;
             border: 1px solid rgba(51, 65, 85, 0.85);
-            background:
-                    radial-gradient(circle at top left, rgba(30, 64, 175, 0.24), transparent 55%),
-                    rgba(15, 23, 42, 0.96);
+            background: radial-gradient(circle at top left, rgba(30, 64, 175, 0.24), transparent 55%),
+            rgba(15, 23, 42, 0.96);
             padding: 10px 12px 8px;
             display: flex;
             flex-direction: column;
@@ -307,9 +312,8 @@
 
         textarea:focus {
             border-color: var(--accent);
-            box-shadow:
-                    0 0 0 1px rgba(37, 99, 235, 0.8),
-                    0 0 24px rgba(37, 99, 235, 0.55);
+            box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.8),
+            0 0 24px rgba(37, 99, 235, 0.55);
         }
 
         button {
@@ -321,9 +325,8 @@
             padding: 9px 14px;
             color: white;
             background: radial-gradient(circle at 30% 0, #60a5fa, #2563eb 40%, #1d4ed8 100%);
-            box-shadow:
-                    0 12px 30px rgba(37, 99, 235, 0.8),
-                    0 0 0 1px rgba(37, 99, 235, 0.7);
+            box-shadow: 0 12px 30px rgba(37, 99, 235, 0.8),
+            0 0 0 1px rgba(37, 99, 235, 0.7);
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -338,9 +341,8 @@
 
         button:active {
             transform: translateY(1px) scale(0.99);
-            box-shadow:
-                    0 8px 24px rgba(37, 99, 235, 0.9),
-                    0 0 0 1px rgba(37, 99, 235, 0.9);
+            box-shadow: 0 8px 24px rgba(37, 99, 235, 0.9),
+            0 0 0 1px rgba(37, 99, 235, 0.9);
         }
 
         button:disabled {
@@ -400,8 +402,7 @@
         <div class="app-header-left">
             <div class="logo" aria-hidden="true"></div>
             <div class="title">
-                <div class="title-main">AI 对话机器人</div>
-                <div class="title-sub">基于后端接口 <code>/api/chat</code> 的实时流式问答</div>
+                <div class="title-main">Vanpine智能AI助手</div>
             </div>
         </div>
         <div class="status-pill">
@@ -488,7 +489,7 @@
             });
         }
 
-        function addMessage(role, text, { typing = false } = {}) {
+        function addMessage(role, text, {typing = false} = {}) {
             ensureMessagesVisible();
 
             const row = document.createElement("div");
@@ -544,7 +545,7 @@
             sendBtn.innerHTML = '<span class="icon">⏳</span><span>思考中</span>';
 
             addMessage("user", content);
-            const assistantBubble = addMessage("assistant", "", { typing: true });
+            const assistantBubble = addMessage("assistant", "", {typing: true});
 
             try {
                 const resp = await fetch("/api/chat", {
@@ -576,9 +577,9 @@
                 let fullText = "";
 
                 while (true) {
-                    ({ done, value } = await reader.read());
+                    ({done, value} = await reader.read());
                     if (done) break;
-                    const chunk = decoder.decode(value, { stream: true });
+                    const chunk = decoder.decode(value, {stream: true});
                     if (chunk) {
                         fullText += chunk;
                         updateTypingBubble(assistantBubble, fullText);

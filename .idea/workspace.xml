@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-linux.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-win.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiDoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/RagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/RagController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/ops.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/ops.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/AiDoctorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/ops.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/ops.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/test/java/com/vanpine/mcpserver/DoctorAiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/mcp-server.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/test-classes/com/vanpine/mcpserver/DoctorAiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,14 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../JAVA/apache-maven-3.9.12" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.9.12\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -63,7 +79,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_directory_selection": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai",
-    "last_opened_file_path": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/resources",
+    "last_opened_file_path": "D:/桌面文件夹d盘/maven-mcp/mcp-client/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面文件夹d盘\maven-mcp\mcp-client\src\main\resources" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-server\src\main\resources" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-server\src\main" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-client\src\main\java\com\vanpine\doctorai" />
@@ -168,7 +185,9 @@
       <workItem from="1772516964012" duration="52000" />
       <workItem from="1772596956675" duration="5051000" />
       <workItem from="1772676715522" duration="5669000" />
-      <workItem from="1772689585790" duration="3499000" />
+      <workItem from="1772689585790" duration="9614000" />
+      <workItem from="1772701438843" duration="1124000" />
+      <workItem from="1772702718391" duration="1992000" />
     </task>
     <task id="LOCAL-00001" summary="完成了redis-stack向量化存储">
       <created>1772615092465</created>

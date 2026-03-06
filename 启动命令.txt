@@ -1,0 +1,2 @@
+nohup java -jar alibaba-ai-test-1.0-SNAPSHOT.jar > app.log 2>&1 &
+nohup java -jar mcp-server-3.5.3.jar > mcp.log 2>&1 &

@@ -8,6 +8,11 @@ server:
 spring:
   application:
     name: mcp-client
+  datasource:
+    url: jdbc:mysql://120.26.30.114:3306/ai_demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: wangbing201708
+    driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:
       port: 6380
@@ -32,11 +37,15 @@ spring:
         toolcallback:
           enabled: true
         stdio:
-          servers-configuration: classpath:/mcp-server-linux.json5
+          servers-configuration: classpath:/mcp-server-win.json5
         # sse:
         #   connections:
         #     mcp-server1:
         #       url: http://localhost:8014
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
 logging:
   level:
     org.springframework.ai.chat.client.advisor: DEBUG

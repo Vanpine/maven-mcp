@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-linux.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-win.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/ChatClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/SystemChatClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiChatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/test/java/com/vanpine/mcpserver/DoctorAiApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/mcp-server.json5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/test-classes/com/vanpine/mcpserver/DoctorAiApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/McpClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/Pojo/ChatPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/ChatClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/MemoryConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/config/SystemChatClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/AiChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/EmbedVectorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/McpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/controller/RagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,44 +63,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.McpClientApplication (1).executor": "Run",
-    "Spring Boot.McpClientApplication.executor": "Run",
-    "Spring Boot.McpSererApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai",
-    "last_opened_file_path": "D:/桌面文件夹d盘/maven-mcp/mcp-client/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "33a9653cde79069edaeca6efea99e974",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.McpClientApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.McpClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.McpSererApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/桌面文件夹d盘/maven-mcp/mcp-client/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;33a9653cde79069edaeca6efea99e974&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\桌面文件夹d盘\maven-mcp\mcp-client\src\main\resources" />
@@ -188,6 +190,7 @@
       <workItem from="1772689585790" duration="9614000" />
       <workItem from="1772701438843" duration="1124000" />
       <workItem from="1772702718391" duration="1992000" />
+      <workItem from="1772760576096" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="完成了redis-stack向量化存储">
       <created>1772615092465</created>

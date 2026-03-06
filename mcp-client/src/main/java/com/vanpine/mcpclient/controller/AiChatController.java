@@ -1,7 +1,7 @@
 package com.vanpine.mcpclient.controller;
 
-
 import com.vanpine.mcpclient.Pojo.ChatPO;
+import com.vanpine.mcpclient.service.DatabaseQueryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.api.Advisor;
@@ -18,13 +18,10 @@ public class AiChatController {
 
     private final ChatClient dashScopeChatClient;
     private final VectorStore vectorStore;
+    private final DatabaseQueryService databaseQueryService;
 
-    // AI医生对话
     @PostMapping(value = "/chat", produces = "text.html/utf-8")
     public Flux<String> chat(@RequestBody ChatPO chatPO) {
-        /*
-         *  Rag检索增强
-         * */
         Advisor retrievalAugmentationAdvisor = RetrievalAugmentationAdvisor.builder()
                 .documentRetriever(VectorStoreDocumentRetriever.builder()
                         .similarityThreshold(0.50)
@@ -32,14 +29,18 @@ public class AiChatController {
                         .build())
                 .build();
 
+        String userMessage = chatPO.getMessage();
+        String dbContext = databaseQueryService.getDatabaseContext(userMessage);
+        String promptMessage = dbContext.isEmpty()
+                ? userMessage
+                : dbContext + "\n\n用户问：" + userMessage + "\n请根据以上数据库查询结果用自然语言回答，不要编造数据。";
 
         return dashScopeChatClient.prompt()
-                .user(chatPO.getMessage())
+                .user(promptMessage)
                 .advisors(a -> a
-                        .param("CONVERSATION_ID", chatPO.getConversationId()) // 对话记忆
-                        .advisors(retrievalAugmentationAdvisor) // RAG检索增强
+                        .param("CONVERSATION_ID", chatPO.getConversationId())
+                        .advisors(retrievalAugmentationAdvisor)
                 ).stream()
                 .content();
     }
-
 }

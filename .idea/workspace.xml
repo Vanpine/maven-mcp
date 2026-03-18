@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/FinalShellDecodePass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-mac.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/MemoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/MemoryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/McpSererApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/McpSererApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/config/McpServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/config/McpServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/service/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/service/WeatherService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../JAVA/apache-maven-3.9.12" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../JAVA/apache-maven-3.9.12" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.9.12\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -46,52 +51,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpClientApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpSererApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/桌面文件夹d盘/maven-mcp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.gettext PO&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;33a9653cde79069edaeca6efea99e974&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FinalShellDecodePass.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.McpClientApplication (1).executor": "Run",
+    "Spring Boot.McpClientApplication.executor": "Run",
+    "Spring Boot.McpSererApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai",
+    "last_opened_file_path": "/Users/vanpine/wb/Project/JavaProject/maven-mcp/mcp-client/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.gettext PO",
+    "spring.configuration.checksum": "33a9653cde79069edaeca6efea99e974",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mcp-client/src/main/resources" />
       <recent name="D:\桌面文件夹d盘\maven-mcp\mcp-client\src\main\resources" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-server\src\main\resources" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-server\src\main" />
       <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-client\src\main\java\com\vanpine\doctorai" />
-      <recent name="C:\Users\A\Desktop\examples\maven-fa\mcp-client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\桌面文件夹d盘\maven-mcp\mcp-client\src\main\resources" />
@@ -106,8 +114,19 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="McpClientApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Application.FinalShellDecodePass">
+  <component name="RunManager" selected="Spring Boot.McpClientApplication">
     <configuration name="FinalShellDecodePass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.demo.controller.FinalShellDecodePass" />
       <module name="mcp-server" />
@@ -120,11 +139,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="maven-mcp" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="alibaba-ai-test" />
@@ -152,12 +166,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.McpClientApplication" />
+        <item itemvalue="Spring Boot.McpSererApplication" />
+        <item itemvalue="Application.FinalShellDecodePass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
-        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.33" />
       </set>
     </attachedChunks>
   </component>
@@ -187,6 +208,7 @@
       <workItem from="1773230457126" duration="8000" />
       <workItem from="1773809858893" duration="33000" />
       <workItem from="1773845605423" duration="288000" />
+      <workItem from="1773848364162" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="完成了redis-stack向量化存储">
       <created>1772615092465</created>

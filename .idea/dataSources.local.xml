@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-231.9011.34">
+  <component name="dataSourceStorageLocal" created-in="IU-252.28539.33">
     <data-source name="0@192.168.174.128" uuid="d9ddaed8-2eab-4d63-bb2c-ca9d5e9ce225">
       <database-info product="Redis Standalone" version="8.2.3" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="8.2.3" exact-driver-version="1.5" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="0@120.26.30.114" uuid="bd776c2e-4b62-4103-8daa-39979af576a5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="ai_demo@120.26.30.114" uuid="782f76b4-3351-4ff1-bbd3-38832f54d689">
+      <database-info product="MySQL" version="8.0.27" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.5.0 (Revision: a7b3c94f50efbddb9f0dd69b3e0d1aaa25305cd6)" dbms="MYSQL" exact-version="8.0.27" exact-driver-version="9.5">
+        <extra-name-characters>$</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>

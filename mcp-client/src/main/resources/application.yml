@@ -15,7 +15,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:
-      port: 6380
+      port: 6379
       host: 120.26.30.114
       password: wangbing201708
 
@@ -37,7 +37,7 @@ spring:
         toolcallback:
           enabled: true
         stdio:
-          servers-configuration: classpath:/mcp-server-win.json5
+          servers-configuration: classpath:/mcp-server-mac.json5
         # sse:
         #   connections:
         #     mcp-server1:

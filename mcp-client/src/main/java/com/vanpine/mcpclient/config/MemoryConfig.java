@@ -26,6 +26,6 @@ public class MemoryConfig {
 
     @Bean
     public RedisChatMemoryRepository redisChatMemoryRepository() {
-        return RedisChatMemoryRepository.builder().host(redisHost).port(redisPort).password(redisPassword).build();
+        return RedisChatMemoryRepository.builder().host(redisHost).password(redisPassword).port(redisPort).build();
     }
 }

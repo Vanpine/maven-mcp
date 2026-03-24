@@ -1,0 +1,21 @@
+server:
+  port: 8014
+  # 设置编码格式
+  servlet:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: mcp-server
+  # mcp-server 配置
+  ai:
+    dashscope:
+      api-key: sk-4246e826d02342b4bb713f68a1ff7b6f
+    mcp:
+      server:
+        type: async
+        name: user-define-mcp-server
+        version: 1.0.0

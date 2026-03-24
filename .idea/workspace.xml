@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="完成了在mac端的修改">
-      <change afterPath="$PROJECT_DIR$/mcp-client/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/AiChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/service/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/service/DatabaseQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-linux.json5" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server-linux.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/mcp-server-linux.json5" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/mcp-server-linux.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/cn/demo/controller/FinalShellDecodePass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/McpSererApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/config/McpServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/classes/com/vanpine/mcpserver/service/WeatherService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/mapper/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/service/DatabaseQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/service/DatabaseQueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/java/FinalShellDecodePass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.McpSererApplication" />
         <item itemvalue="Spring Boot.McpClientApplication" />
+        <item itemvalue="Spring Boot.McpSererApplication" />
         <item itemvalue="Application.FinalShellDecodePass" />
       </list>
     </recent_temporary>
@@ -257,7 +245,7 @@
       <workItem from="1774084035211" duration="93000" />
       <workItem from="1774273993118" duration="280000" />
       <workItem from="1774274283083" duration="3410000" />
-      <workItem from="1774280015619" duration="1378000" />
+      <workItem from="1774280015619" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="完成了redis-stack向量化存储">
       <created>1772615092465</created>

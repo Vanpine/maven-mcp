@@ -15,7 +15,7 @@ import reactor.core.publisher.Flux;
 @RequiredArgsConstructor
 @RequestMapping("/api")
 public class AiChatController {
-
+ 
     private final ChatClient dashScopeChatClient;
     private final VectorStore vectorStore;
     private final DatabaseQueryService databaseQueryService;

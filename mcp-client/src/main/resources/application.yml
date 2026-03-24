@@ -37,7 +37,7 @@ spring:
         toolcallback:
           enabled: true
         stdio:
-          servers-configuration: classpath:/mcp-server-mac.json5
+          servers-configuration: classpath:/mcp-server-linux.json5
         # sse:
         #   connections:
         #     mcp-server1:

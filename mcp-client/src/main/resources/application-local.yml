@@ -1,0 +1,9 @@
+ai:
+  mcp:
+    client:
+      stdio:
+        servers-configuration: classpath:/mcp-server-mac.json5
+
+# 本地：读取 resources 下的 ops.txt
+ops:
+  file-path: classpath:ops.txt

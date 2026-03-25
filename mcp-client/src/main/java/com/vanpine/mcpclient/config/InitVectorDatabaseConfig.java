@@ -11,15 +11,13 @@ import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.scheduling.annotation.Scheduled;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 @Configuration
 @RequiredArgsConstructor
@@ -31,11 +29,35 @@ public class InitVectorDatabaseConfig {
     private final VectorStore vectorStore;
     private final StringRedisTemplate stringRedisTemplate;
 
-    @Value("classpath:ops.txt")
+    private final AtomicBoolean reloading = new AtomicBoolean(false);
+
+    // 读取环境对应的 ops.txt 路径：本地用 classpath，线上用绝对路径
+    @Value("${ops.file-path:classpath:ops.txt}")
     private Resource opsFile;
 
     @PostConstruct
     public void init() {
+        reloadOpsToVectorStore();
+    }
+
+    /**
+     * 每隔 10 秒重新加载 ops.txt 到向量库。
+     * 注意：这是重建索引/写入向量的行为，可能比较耗时。
+     */
+    @Scheduled(fixedDelay = 10000)
+    public void scheduledReloadOpsToVectorStore() {
+        if (!reloading.compareAndSet(false, true)) {
+            log.warn("上一轮 ops.txt 重加载尚未完成，跳过本次调度");
+            return;
+        }
+        try {
+            reloadOpsToVectorStore();
+        } finally {
+            reloading.set(false);
+        }
+    }
+
+    private void reloadOpsToVectorStore() {
         // 1. 直接用 Resource 构造 TextReader
         TextReader textReader = new TextReader(opsFile);
         textReader.setCharset(StandardCharsets.UTF_8);
@@ -43,6 +65,7 @@ public class InitVectorDatabaseConfig {
         List<Document> list = new TokenTextSplitter().transform(textReader.read());
         log.info("成功读取 ops.txt，分割为 {} 个文档片段", list.size());
         log.info("这是文件内容{}", list.stream().map(Document::getId).toList());
+
         // 删除旧向量
         deleteKeysWithCustomPrefix();
         // 4. 写入向量数据库 redisStack

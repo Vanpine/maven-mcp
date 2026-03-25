@@ -6,6 +6,8 @@ server:
       force: true
       charset: utf-8
 spring:
+  profiles:
+    active: local # 默认激活本地环境，上线时改为 prod
   application:
     name: mcp-client
   datasource:
@@ -36,8 +38,8 @@ spring:
         request-timeout: 60s
         toolcallback:
           enabled: true
-        stdio:
-          servers-configuration: classpath:/mcp-server-mac.json5
+        #        stdio:
+        #          servers-configuration: classpath:/mcp-server-mac.json5    使用不同开发环境的yml配置文件
         # sse:
         #   connections:
         #     mcp-server1:

@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab1b665-d2d7-4be6-8cc0-e3c03bc6662a" name="Changes" comment="完成了在mac端的修改">
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/service/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/service/DatabaseQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/McpClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/McpClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/config/InitVectorDatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/RagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/vanpine/mcpclient/controller/RagController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/alibaba-ai-test-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/service/DatabaseQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/target/classes/com/vanpine/mcpclient/service/DatabaseQueryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/java/FinalShellDecodePass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,56 +73,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FinalShellDecodePass.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.alibaba-ai-test [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.alibaba-ai-test [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mcp-server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mcp-server [package].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-vcs.roots.invalid&quot;: &quot;Invalid VCS root mapping&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
-    &quot;Notification.DoNotAsk-vcs.roots.invalid&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpClientApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpSererApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vanpine/wb/Project/JavaProject/maven-mcp/mcp-client/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;33a9653cde79069edaeca6efea99e974&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FinalShellDecodePass.executor": "Run",
+    "Maven.alibaba-ai-test [clean].executor": "Run",
+    "Maven.alibaba-ai-test [package].executor": "Run",
+    "Maven.mcp-server [clean].executor": "Run",
+    "Maven.mcp-server [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "New/updated database configurations found",
+    "Notification.DisplayName-DoNotAsk-vcs.roots.invalid": "Invalid VCS root mapping",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "Notification.DoNotAsk-vcs.roots.invalid": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.McpClientApplication (1).executor": "Run",
+    "Spring Boot.McpClientApplication.executor": "Debug",
+    "Spring Boot.McpSererApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/A/Desktop/examples/maven-fa/mcp-server/src/main/java/com/vanpine/doctorai",
+    "last_opened_file_path": "/Users/vanpine/wb/Project/JavaProject/maven-mcp/mcp-client/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "33a9653cde79069edaeca6efea99e974",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
     ]
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mcp-client/src/main/resources" />
@@ -246,6 +251,9 @@
       <workItem from="1774273993118" duration="280000" />
       <workItem from="1774274283083" duration="3410000" />
       <workItem from="1774280015619" duration="2645000" />
+      <workItem from="1774329540651" duration="14000" />
+      <workItem from="1774416354053" duration="18000" />
+      <workItem from="1774443908061" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="完成了redis-stack向量化存储">
       <created>1772615092465</created>

@@ -1,0 +1,9 @@
+ai:
+  mcp:
+    client:
+      stdio:
+        servers-configuration: classpath:/mcp-server-linux.json5
+
+# 线上：读取 ECS 绝对路径
+ops:
+  file-path: file:/root/mcp/mcp-client/ops.txt
